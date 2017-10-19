@@ -1,5 +1,5 @@
 .yesno {
-    height: 400px;
+  height: 450px;
   position:relative;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
@@ -19,12 +19,40 @@
   text-align: center;
   display: block;
   color: #FFF;
-  background-color: #066;
-  line-height: 200px;
+  line-height: 300px;
   font-size: 120%;
   width: 320px;
   margin: 0 20px 0 0;
 }
+
+.yesno ul li.result {
+  line-height: 100px;
+    font-size: 100%;
+}
+
+
+.yesno ul li.even a  {
+  background-color: #3498db;
+}
+
+.yesno ul li.odd a {
+  background-color: #FE6949;
+}
+
+
+.yesno ul li.full {
+  list-style:none;
+  float: left;
+  text-align: center;
+  display: block;
+  color: #FFF;
+  background-color: #066;
+  line-height: 200px;
+  font-size: 120%;
+  width: 640px;
+  margin: 0 20px 0 0;
+}
+
 .positionFit {
   position:absolute;
   left: 0px;
@@ -39,7 +67,6 @@
 }
 
 .yesno ul li a {
-    background-color: #3498db;
     color: #fff;
     display: block;
     height: 100%;
@@ -52,7 +79,11 @@
   background: #48cc83!important;
 }
 
-.yesno ul li a:hover {
+.yesno ul li.odd a:hover {
+    background-color: #E86444;
+}
+
+.yesno ul li.even a:hover {
     background-color: #298dcf;
 }
 
@@ -63,4 +94,10 @@
     padding: 10px 10px 8px;
     vertical-align: middle;
     margin: 0 10px 0 0;
+}
+
+img{
+  margin-bottom:10px;
+  overflow:hidden;
+  height:200px;
 }
