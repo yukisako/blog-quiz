@@ -26,7 +26,7 @@
 }
 
 .yesno div.questionbox .list.result {
-    line-height: 70px;
+    line-height: 80px;
     font-size: 100%;
 }
 
@@ -73,7 +73,7 @@
     height: 100%;
     text-decoration: none;
     width: 100%;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .no-bg{
