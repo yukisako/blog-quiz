@@ -3,14 +3,14 @@
   height: 450px;
   position:relative;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
-  margin:0 0 40px;
+  /*margin:0 0 40px;*/
   clear: both;
   overflow: hidden;
 }
 
 .yesno div.questionbox{
   overflow: hidden;
-  padding: 0 25px 0 25px;
+  /*padding: 0 25px 0 25px;*/
 }
 
 .yesno div.questionbox .list {
@@ -63,7 +63,7 @@
 .positionFit p.title{
   background: #ddd none repeat scroll 0 0;
   padding: 20px 25px;
-  margin: 0 25px;
+  /*margin: 0 25px;*/
   font-size: 17px;
 }
 
@@ -73,7 +73,7 @@
     height: 100%;
     text-decoration: none;
     width: 100%;
-    font-size: 28px;
+    font-size: 17px;
 }
 
 .no-bg{
@@ -98,7 +98,7 @@
 }
 
 div.ans{
-  margin-top: 20px;
+  margin-top: 10px;
   padding-left: 25px;
   padding-right: 25px;
   text-align: center;
