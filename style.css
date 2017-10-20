@@ -8,12 +8,12 @@
   overflow: hidden;
 }
 
-.yesno ul{
+.yesno div.questionbox{
   overflow: hidden;
   padding: 0 0 0 25px;
 }
 
-.yesno ul li {
+.yesno div.questionbox .list {
   list-style:none;
   float: left;
   text-align: center;
@@ -22,25 +22,25 @@
   line-height: 300px;
   font-size: 120%;
   width: 320px;
-  margin: 0 20px 0 0;
+  margin: 10px 20px 0 0;
 }
 
-.yesno ul li.result {
+.yesno div.questionbox .list.result {
   line-height: 100px;
     font-size: 100%;
 }
 
 
-.yesno ul li.even a  {
+.yesno div.questionbox .list.even a  {
   background-color: #3498db;
 }
 
-.yesno ul li.odd a {
+.yesno div.questionbox .list.odd a {
   background-color: #FE6949;
 }
 
 
-.yesno ul li.full {
+.yesno div.questionbox .list.full {
   list-style:none;
   float: left;
   text-align: center;
@@ -60,13 +60,13 @@
   width: 710px;
 }
 
-.positionFit p{
+.positionFit p.title{
   background: #eee none repeat scroll 0 0;
     padding: 10px 25px;
     margin: 0 25px;
 }
 
-.yesno ul li a {
+.yesno div.questionbox .list a {
     color: #fff;
     display: block;
     height: 100%;
@@ -79,11 +79,11 @@
   background: #48cc83!important;
 }
 
-.yesno ul li.odd a:hover {
+.yesno div.questionbox .list.odd a:hover {
     background-color: #E86444;
 }
 
-.yesno ul li.even a:hover {
+.yesno div.questionbox .list.even a:hover {
     background-color: #298dcf;
 }
 
@@ -96,8 +96,10 @@
     margin: 0 10px 0 0;
 }
 
-img{
-  margin-bottom:10px;
+img.ans{
+  margin-top: 10px;
+  margin-left: 25px;
+  width:660px;
   overflow:hidden;
   height:200px;
 }
